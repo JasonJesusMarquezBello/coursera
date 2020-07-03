@@ -1,24 +1,28 @@
 *{
     box-sizing: border-box;
+    padding:0;
 }
 
 body{
     color: #1e1e1e;
     font-size: 13px;
     font-weight: 300;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 h1{
     padding: 15px;
     text-align: center;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 
 section{
     background-color: silver;
     margin-top: 15px;
-    margin-bottom: 10px;
+    margin-bottom: auto;
     margin-right: auto;
+    overflow: auto;
+    height: 200px;
 }
 
 .tituloMenu{
@@ -27,8 +31,25 @@ section{
     text-align: center; 
     border: 1px solid black;
     background-color: red;
-    margin-left: 60%;
-  
+    margin-left: 60%; 
+}
+
+.tituloMenu2{
+    position: relative;
+    color: whitesmoke; 
+    text-align: center; 
+    border: 1px solid black;
+    background-color: black;
+    margin-left: 60%; 
+}
+
+.tituloMenu3{
+    position: relative;
+    color: whitesmoke; 
+    text-align: center; 
+    border: 1px solid black;
+    background-color: blue;
+    margin-left: 60%; 
 }
 
 p{
@@ -41,8 +62,6 @@ p{
 
 .row{
     width:100%;  
-    margin-right: auto;
-    margin-left: auto;
 }
 
 @media(min-width:992px){
@@ -50,6 +69,7 @@ p{
     .col-lg-7,.col-lg-8,.col-lg-9,.col-lg-10,.col-lg-11,.col-lg-12{
         float: left;
         border: 1px solid black;
+        margin-right: 10px;
     }
     .col-lg-1{   
         width: 8.33%;
@@ -63,7 +83,7 @@ p{
     }
 
     .col-lg-4{
-        width: 33.33%;
+        width: 32git%;
     }
     .col-lg-5{   
         width: 41.66%;
@@ -104,7 +124,8 @@ p{
     .col-md-1,.col-md-2,.col-md-3,.col-md-4,.col-md-5,.col-md-6,
     .col-md-7,.col-md-8,.col-md-9,.col-md-10,.col-md-11,.col-md-12{
         float: left;
-        border: 1px solid black; 
+        border: 1px solid black;
+        margin-right: 5px; 
     }
 
     .col-md-1{   
@@ -119,14 +140,14 @@ p{
     }
 
     .col-md-4{
-        width: 33%;
+        width: 31%;        
     }
     .col-md-5{   
         width: 41.66%;
     }
 
     .col-md-6{   
-        width: 50%;
+        width: 49%;
     }
 
     .col-md-7{   
@@ -150,7 +171,7 @@ p{
     }
 
     .col-md-12{
-        width: 100%;
+        width: 99%;
     }
 }
 
