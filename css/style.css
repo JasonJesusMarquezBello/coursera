@@ -61,7 +61,8 @@ p{
 }
 
 .row{
-    width:100%;  
+    width:100%;
+   
 }
 
 @media(min-width:992px){
@@ -83,7 +84,7 @@ p{
     }
 
     .col-lg-4{
-        width: 32%;
+        width: 32.56%;
     }
     .col-lg-5{   
         width: 41.66%;
